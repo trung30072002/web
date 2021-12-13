@@ -1,0 +1,67 @@
+/* Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+1.tu ngoai vao trong
+2.tu tren xuong duoi
+3.tu tong quan den chi tiet
+*/
+
+/*
+1.vi tri
+2.kich thuoc(width, height)
+3.mau sac
+4.kieu dang(kieu chu , hinh trong, vuong,v.v..)
+*/
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+}
+
+#nav{
+
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav li:hover a{
+    color: black;
+    background-color: white;
+}
+
+#nav .subnav{
+    display: none;
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
